@@ -1,1 +1,34 @@
-Enter you css here.
+h1 {
+    font-style: inherit;
+    color:black;
+    text-align: center;
+    text-decoration:underline double;
+}
+body{
+    background-color: aqua;
+}
+.bigCard{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(61, 41, 123);
+    justify-content: space-between;
+}
+.card {
+  width: 350px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+  height: 500px
+}
+.card img {
+    width: 350px;
+    height: 250px;
+}
+.likeButton {
+    background-color: aquamarine;
+    border-color: black;
+}
