@@ -23,9 +23,7 @@ fetch ("http://localhost:3000/posts")
        div.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.1)";
 });
         bigCard.appendChild(div)
-        
     })
-
 })
 function addlikes(){
     alert("Since you like me, why don't you adopt me.")
